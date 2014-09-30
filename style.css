@@ -1,0 +1,393 @@
+body {
+ background-color: #000;
+ color: #fff;
+ font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+ font-size: 10pt;
+ line-height: 1em;
+}
+
+
+a {
+ color: #fff;
+ text-decoration: none;
+ }
+
+ a:hover {
+ text-decoration: underline;
+ }
+ 
+#strona {
+ margin: 0 auto;
+ width: 860px;
+ }
+ 
+#logo {
+ background-image: url('img/logo.jpg');
+ background-repeat: no-repeat;
+ background-position: right top;
+ height: 199px;
+ width: 100%;
+}
+
+#main {
+ border: 0px;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ width: 550px;
+ float: left;
+}
+
+#menu-wrapper {
+ float: right;
+ border: 0px;
+ margin: 0px 0px 0px 0px;
+ padding: 0px;
+ height: 100px;
+ width: 230px;
+ display: inline;
+}
+
+#gora-menu{
+ height: 53px;
+ width: 100%;
+ background-image: url('img/logo-dol.jpg');
+ background-repeat: no-repeat;
+ background-position: right top;
+}
+#menu-content{
+ background-image: url('img/menu-tlo.jpg');
+ background-repeat: repeat-y;
+ background-position: 24px;
+ min-height: 150px;
+ font-size: 16pt;
+ font-weight: bold;
+}
+
+#footer {
+ clear: both;
+ width: 860px;
+ border: 0px;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+}
+     
+
+    #header {
+        background: url("/images/joined.jpg") no-repeat scroll right top #000000;
+        height: 199px;
+        width: 100%;
+    }
+    #content {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 800px;
+    }
+    #contentwrapper {
+        margin-right: auto;
+        max-width: 1000px;
+        min-width: 800px;
+    }
+    #contentcolumn {
+		float: left;
+        margin-right: 300px;
+    }
+    #menu {
+        background-image: url("/images/tlo.menu.jpg");
+        background-position: 22px 0;
+        background-repeat: repeat-y;
+        float: right;
+        font-size: 12pt;
+        line-height: 18px;
+        margin-left: -228px;
+        width: 228px;
+    }
+
+    .wrapper {
+        padding: 0 2% 2%;
+        width: 96%;
+    }
+    .menu_wrapper {
+        font-size: 9pt;
+        padding-left: 20px;
+        padding-top: 0;
+        width: 96%;
+    }
+    #page {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        max-width: 1000px;
+        text-align: left;
+        width: 96%;
+    }
+    .topic_list {
+        padding-top: 15px;
+        width: 700px;
+    }
+    .dark {
+        background-color: #612D00;
+    }
+    .light {
+        background-color: #934E2D;
+    }
+    .topic a {
+        color: #FFA500;
+        font-size: 11pt;
+    }
+    .pined a {
+        color: red;
+        font-size: 11pt;
+    }
+    th {
+        background-color: #422100;
+        padding: 10px;
+    }
+    td {
+        padding: 4px;
+    }
+    .autor {
+        font-weight: bold;
+        text-align: center;
+    }
+    .posts {
+        text-align: center;
+    }
+    .last {
+        font-size: small;
+        text-align: right;
+    }
+    .last a {
+        color: silver;
+    }
+    .post {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+    .posthead {
+        background-color: #422100;
+        clear: both;
+        font-weight: bold;
+        width: 100%;
+    }
+    .posthead_left {
+        clear: both;
+        display: block;
+        float: left;
+        position: relative;
+        text-align: left;
+        width: 180px;
+    }
+    .posthead_right {
+        display: block;
+        margin-left: 200px;
+    }
+    .post_body {
+        background-color: #612D00;
+        clear: both;
+        padding: 5px;
+    }
+    .p2_nick {
+        display: block;
+        margin-right: 200px;
+        padding: 5px;
+        text-align: left;
+    }
+    .p2_data {
+        clear: both;
+        display: block;
+        float: right;
+        padding: 5px;
+        position: relative;
+        text-align: right;
+        width: 180px;
+    }
+    .cite {
+        background: none repeat scroll 0 0 #753D00;
+        border: 1px solid black;
+        font-weight: bold;
+        margin: 3px;
+        padding: 2px;
+    }
+    .cite_link {
+        color: #A56D00;
+    }
+    .cite_field {
+        display: none;
+        font-weight: normal;
+    }
+    .forum_navi {
+        font-size: 9pt;
+        font-weight: bold;
+        line-height: 25px;
+        padding-left: 10px;
+        padding-top: 10px;
+		list-style: none;
+    }
+
+	.pagination_header {
+		display: inline;
+	}
+
+	.pagination_list {
+		list-style: none;
+		display: inline-block;
+	}
+
+	.forum_navi > li, .pagination_list > li {
+		display: inline-block;
+	}
+
+	.pagination_list > li {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.pagination {
+		text-align: center;
+	}
+
+    form {
+        color: White;
+        display: inline;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 9pt;
+        font-weight: bold;
+        line-height: 25px;
+    }
+    input {
+        background: none repeat scroll 0 0 #612D00;
+        border-color: #FFC18A;
+        border-style: solid;
+        border-width: 1px;
+        color: White;
+        font-family: Arial;
+    }
+    TEXTAREA {
+        background: none repeat scroll 0 0 #612D00;
+        border: 1px solid #FFC18A;
+        color: White;
+        font-family: Arial CE;
+        width: 100%;
+    }
+    .ignored {
+        color: red;
+    }
+    .post_body a {
+        color: orange;
+        font-weight: bold;
+    }
+    .error {
+        color: red;
+    }
+    .label {
+        margin-top: 0;
+    }
+
+
+
+
+/*
+** NW 1.0
+*/
+
+body {
+	margin: 0 auto;
+	width: 860px;
+}
+
+form {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	height: 200px;
+}
+
+input {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+#contentcolumn {
+	margin-right: 250px;
+}
+
+.login_box {
+	padding: 8px;
+}
+
+.forum_navi {
+	padding: 8px;
+	display: block;
+}
+
+.topic_list {
+	width: auto;
+}
+
+.topic a {
+	font-size: inherit;
+}
+
+.post {
+	margin: 0 0 16px;
+	font-size: inherit;
+}
+
+.posthead {
+	font-weight: 400;
+	padding: 7px 8px 8px;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	width: auto;
+}
+
+.p2_nick {
+	font-weight: 700;
+	padding: 0;
+}
+
+.p2_data {
+	padding: 0;
+}
+
+.post_body {
+	padding: 8px;
+}
+
+.post_body a {
+	font-weight: 400;
+}
+
+.cite .post {
+	margin: 0;
+}
+
+.lastvisit_info {
+	font-weight: 700;
+	margin: 32px 0;
+	text-align: center;
+}
+
+    .post_modified {
+        color:red;
+        margin-top: 6px;
+        margin-bottom: 0px;
+        border-top: 1px solid black;
+        text-align: center;
+    }
+
+    .post_body .menu {
+        margin-top: 6px;
+        margin-bottom: 0px;
+        border-top: 1px solid black;
+    }
+
+	.found {
+        background-color: deepskyblue;
+        color: black;
+        font-weight: bold;
+    }
